@@ -1,0 +1,5 @@
+{
+    "token": "YOUR_DISCORD_BOT_TOKEN_HERE",
+    "roleId": "YOUR_ROLE_ID_HERE",
+    "webhook": "YOUR_WEBHOOK_URL_HERE"
+}
