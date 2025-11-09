@@ -8,14 +8,14 @@ Dans Railway, allez dans votre projet → **Variables** et ajoutez les variables
 
 | Variable | Valeur | Description |
 |----------|--------|-------------|
-| `DISCORD_TOKEN` | `MTM1MTY1ODczNzg3NzkwOTUzNA.GH5G1y.0JgKZn7cjgqgJRsX143UlmRnqLB06Y9DbOU2Zc` | Token du bot Discord |
-| `ROLE_ID` | `1303466644269437039` | ID du rôle de vérification |
+| `DISCORD_TOKEN` | Votre token Discord | Token du bot Discord (obtenu sur Discord Developer Portal) |
+| `ROLE_ID` | ID du rôle | ID du rôle de vérification à attribuer |
 
 ### Variables optionnelles
 
 | Variable | Valeur | Description |
 |----------|--------|-------------|
-| `WEBHOOK_URL` | `https://discordapp.com/api/webhooks/1424036411576946739/T5NX2teOVBCfedvMQghKVz8gMQW77dF5z8gwMOy-VwKl9IvrPtR8apj32zOi591ltBjF` | URL du webhook Discord (optionnel) |
+| `WEBHOOK_URL` | URL de votre webhook | URL du webhook Discord (optionnel) |
 
 > **Note** : `CALLBACK_URL` et `CALLBACK_PORT` ne sont **pas nécessaires** pour `ticket-leak-bot.js`. Ces variables sont uniquement utilisées par `bot.js` si vous avez un serveur de vérification externe.
 
